@@ -2,7 +2,6 @@
 .quicksand-normal {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
-    /* font-weight: 700; */
     font-style: normal;  
   }
   .alogo{
@@ -72,10 +71,11 @@
     align-items: center;
     margin: 0 auto;
 }
-#empower{
+.empower{
     font-size: 3.5rem;
     color: orange;
 }
+
 #age{
     font-size: 3.5rem;
 }
@@ -166,4 +166,174 @@
 .arrowdiv{ 
     margin-top: 10px;
     text-align: center;   
+}
+.storyh{
+    font-weight: 700px;
+    font-size: 2.8rem;
+    text-align: center;
+}
+.allfour{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+.mainstory{
+    margin-left: 140px;
+}
+.fiveimages{
+    gap: 10px;
+}
+.firstcardimage{
+    border: 1px black solid;
+    border-radius: 16px;
+    width: 540px;
+    height: 630px;
+    overflow: hidden;
+}
+.secondcardimage, .thirdcardimage, .fourthcardimage, .fifthcardimage{
+    border: 1px black solid;
+    border-radius: 16px;
+    width: 290px;
+    height: 301px;
+    overflow: hidden;
+}
+.aaa{
+    margin-left: 30px;
+    margin-top: -25px;
+}
+.firstcardimagebtn{
+    background-color: #3CD8E8;
+    border-radius: 47.83px;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    padding: 14px;
+}
+.aaah4{
+    margin-left: 30px;
+}
+.funh4{
+    font-weight: 700px;
+    font-size: 1.5rem;
+}
+.funp{
+    font-weight: 600px;
+    font-size: 1.5rem;
+    font-size: 0.95rem;
+    color: #666666;
+}
+.sameschool{
+    font-weight: 700px;
+    font-size: 0.95rem;
+    margin-left: 35px;
+}
+.bbb{
+    margin-left: 30px;
+    margin-top: -17px;
+}
+.ccc{
+    margin-left: 30px;
+    margin-top: -17px;
+}
+.ddd{
+    margin-left: 30px;
+    margin-top: -17px;
+}
+.eee{
+    margin-left: 30px;
+    margin-top: -17px;
+}
+.secondcardimagebtn{
+    background-color: #95B226;
+    border-radius: 47.83px;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    padding: 14px;
+}
+.thirdcardimagebtn{
+    background-color: #5D58F0;
+    border-radius: 47.83px;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    padding: 14px;
+}
+.fourthcardimagebtn{
+    background-color: #95B226;
+    border-radius: 47.83px;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    padding: 14px;
+}
+.fifthcardimagebtn{
+    background-color: #95B226;
+    border-radius: 47.83px;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    padding: 14px;
+}
+.vbtn{
+    text-align: center;
+}
+.viewbtn{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 61px 10px 61px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-top: 60px;   
+}
+.foot{
+    margin-left: 140px;
+    margin-top: 60px;
+    margin-right: 80px;
+    background-color: #01ACFD;   
+}
+.allfoot{
+    padding: 80px 80px 50px 40px;
+    color: white;
+}
+.kidsh3{
+    font-weight: 700;
+    font-size: 2.63rem;
+}
+.imgg{
+    width: 82px;
+    height: 81px;
+    margin-top: 40px;
+}
+.pizza{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.allfoot{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.aboutschool{
+    margin-top: 40px;
+}
+.pabout{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.ulabout>li{
+    list-style: none;
+    margin-left: -40px;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.touch{
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
