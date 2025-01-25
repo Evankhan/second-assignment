@@ -352,21 +352,28 @@
     grid-template-columns: repeat(2,1fr); */
 } 
 
+.navbtn{
+    width: 30px;
+    height: 30px;
+}
 /* for smaller devices */
 
 @media screen and (max-width: 576px){
-    .school-size, .navgrid, .contactbtn, .arrowdiv, .firstcardimage, .thirdcardimage, .fifthcardimage{
+    .school-size, .navgrid, .contactbtn, .arrowdiv, .firstcardimage {
         display: none;
     }
     .newemp
     {   
         margin-left: -125px;
-        flex-direction: column-reverse;
-        
+        flex-direction: column-reverse;  
     }
-    .hero{
-        margin-left: -10px;
-        max-width: 100%;
+    .navbtn{
+        margin-top: 30px;    
+    }
+    .hero, .heroimg{
+        margin-left: 0px;
+        max-width: 140%;
+        max-height: 150%;
     }
     .alogo{
         margin-left: -125px;
@@ -397,6 +404,66 @@
         margin-left: 30px;
     }
     .vbtn{
-        margin-left: -200px;
+        margin-left: -150px;
+    }
+}
+
+/* medium sized devices */
+
+@media screen and (min-width: 576px) and (max-width: 1390px) {
+    .school-size, .navgrid, .contactbtn, .arrowdiv, .firstcardimage{
+        display: none;
+    }
+    .newemp
+    {   
+        margin-left: -125px;
+        flex-direction: column-reverse;  
+    }
+    .navbtn{
+        margin-top: 30px;  
+        margin-right: 100px;  
+    }
+    .hero{
+        margin-left: -10px;
+        max-width: 100%;
+    }
+    .alogo{
+        margin-left: -125px;
+    }
+    .sdc{
+        text-align: left; 
+    }
+    .cardsthree{
+        display: flex;
+        flex-direction: column;
+        margin-left: -100px;
+    }
+    .allfour{
+        display: flex;
+        flex-direction: column;
+        margin-left: 130px;
+    }
+    .foot{
+        margin-left: 130px;
+        width: 350px;
+        height: auto;
+    }
+    .allfoot{
+        display: flex;
+        flex-direction: column;  
+    }
+    .mainstory{
+        margin-left: 30px;
+    }
+    .vbtn{
+        margin-left: -100px;
+    }
+    .storyh{
+        margin-left: -100px;
+    }
+}
+@media screen and (min-width: 1391px) and (max-width: 10000px) {
+    .navbtn{
+        display: none; 
     }
 }
