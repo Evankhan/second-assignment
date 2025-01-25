@@ -337,3 +337,66 @@
     font-weight: 700;
     font-size: 1.5rem;
 }
+.enroll{
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+ .newemp{
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+} 
+
+/* for smaller devices */
+
+@media screen and (max-width: 576px){
+    .school-size, .navgrid, .contactbtn, .arrowdiv, .firstcardimage, .thirdcardimage, .fifthcardimage{
+        display: none;
+    }
+    .newemp
+    {   
+        margin-left: -125px;
+        flex-direction: column-reverse;
+        
+    }
+    .hero{
+        margin-left: -10px;
+        max-width: 100%;
+    }
+    .alogo{
+        margin-left: -125px;
+    }
+    .sdc{
+        text-align: left; 
+    }
+    .cardsthree{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .allfour{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .foot{
+        margin-left: 30px;
+        width: 350px;
+        height: auto;
+    }
+    .allfoot{
+        display: flex;
+        flex-direction: column;      
+    }
+    .mainstory{
+        margin-left: 30px;
+    }
+    .vbtn{
+        margin-left: -200px;
+    }
+}
