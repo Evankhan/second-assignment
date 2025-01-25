@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-normal {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    /* font-weight: 700; */
+    font-style: normal;  
+  }
+  .alogo{
+    width: 62px;
+    height: 62px;
+    margin-top: 20px;
+  }
+  .school-size{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .home-size{
+    font-size: 1.25rem;
+    color: orange;
+    font-weight: 700;
+  }
+  .about-size{
+    font-size: 1.25rem;
+    color: skyblue;
+    font-weight: 700;
+  }
+  .facilities-size{
+    font-size: 1.25rem;
+    color: #05D4DF;
+    font-weight: 700;
+  }
+  .admission-size{
+    font-size: 1.25rem;
+    color: #5D58EF;
+    font-weight: 700;
+  }
+  
+  .contactbtn{
+    background-color: orange;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.25rem;
+    width: 197px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 27px;
+  }
+
+.navheader{
+    max-width: 1440px;
+    margin-left: 141px;
+    margin-right: 141px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.display-flex{
+    display: flex;
+}
+.navgrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 35px;
+}
+
+.navgrid>li{
+    text-decoration: none;
+    list-style: none;
+}
+.navdiv{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+#empower{
+    font-size: 3.5rem;
+    color: orange;
+}
+#age{
+    font-size: 3.5rem;
+}
+#vision{
+    font-size: 3.5rem;
+    color: skyblue;
+}
+.courage{
+    font-size: 1.20rem;
+    font-weight: 500px;
+}
+.hero{
+    margin-left: 500px;
+}
+.h3sdc{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 2.8rem;
+    
+}
+.standard{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.cardsthree{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-left: 140px;
+}
+.firstimage{
+    border: 1px;
+    border-radius: 18.86px;
+    width: 367px;
+    height: 400px;
+    background: linear-gradient(to bottom, #DEF5FF, white);
+    align-content: center;
+    text-align: center;
+}
+.secondimage{
+    border: 1px;
+    border-radius: 18.86px;
+    width: 367px;
+    height: 400px;
+    background: linear-gradient(to bottom, #FFF4DC, white);
+    align-content: center;
+    text-align: center;
+}
+.thirdimage{
+    border: 1px;
+    border-radius: 18.86px;
+    width: 367px;
+    height: 400px;
+    background: linear-gradient(to bottom, #F2E8FF, white);
+    align-content: center;
+    text-align: center;
+}
+.kinder{
+    color: #202020;
+    font-weight: 700px;
+    font-size: 1.53rem;
+}
+.kinderp{
+    color: #808080;
+    font-weight: 600px;
+    font-size: 0.94rem;
+}
+#readone{
+    color: #64C8FF;
+    font-weight: 700px;
+    font-size: 0.94rem;
+}
+#readtwo{
+    color: #F0AA00;
+    font-weight: 700px;
+    font-size: 0.94rem;
+}
+#readthree{
+    color: #8700FF;
+    font-weight: 700px;
+    font-size: 0.94rem;
+}
+.arrowbtn{
+    width: 130px;
+    height: 100px;  
+}
+.arrowdiv{ 
+    margin-top: 10px;
+    text-align: center;   
+}
